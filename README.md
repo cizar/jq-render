@@ -1,23 +1,25 @@
 # jQuery Render
 
-Handlebars render plugin for jQuery
+Simple Handlebars render plugin for jQuery
 
 ## Usage
 
-Initialize the template
+First, initialize the template.
 
 ```js
-  $('#my-template').render('Here is a {{Handlebar}} template');
+  $('#my-placeholder').render('Here is a {{Handlebar}} template');
 ```
 
-Or with HTML inside a element
+Or with the content inside an element
 
 ```html
-<div id="my-template">Hello {{name}}!</div>
+<div id="my-placeholder">Hello {{name}}!</div>
 ```
 
+And apply the plugin without parameters.
+
 ```js
-  $('#my-template').render();
+  $('#my-placeholder').render();
 ```
 
 Then simply render the template with some data.
@@ -27,11 +29,7 @@ Then simply render the template with some data.
   $('#my-template').render({ name: 'World!' });
 ```
 
-Also you can initialize the template and render
-
-```html
-<div id="my-placeholder"></div>
-```
+Also you can initialize the template and render at the same time.
 
 ```js
   $('#my-template').render({ name: 'World' }, 'This is another hello {{name}}!');
