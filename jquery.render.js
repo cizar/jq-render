@@ -28,8 +28,10 @@
     }
     return this.each(function() {
       var template = $(this).data('template');
-      source = source || $(this).html();
-      if (source.length) {
+      if (!template) {
+        source = source || $(this).html();
+      }
+      if (source && source.length) {
         template = Handlebars.compile(source);
         $(this).data('template', template);
       }
