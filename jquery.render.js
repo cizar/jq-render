@@ -23,8 +23,8 @@
 
   $.fn[pluginName] = function(data, source) {
     if ('string' === typeof data) {
-      data = {};
       source = data;
+      data = {};
     }
     return this.each(function() {
       var template = $(this).data('template');
