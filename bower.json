@@ -1,0 +1,19 @@
+{
+  "name": "jq-render",
+  "version": "0.0.2",
+  "homepage": "https://github.com/cizar/jq-render",
+  "authors": [
+    "Cesar Kastli <cesarkastli@gmail.com>"
+  ],
+  "description": "Simple Handlebars render plugin for jQuery",
+  "main": "jquery.render.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

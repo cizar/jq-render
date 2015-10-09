@@ -1,6 +1,6 @@
 {
   "name": "jq-render",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Handlebars render plugin for jQuery",
   "main": "jquery.render.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/cizar/jq-render.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cizar/jq-render/issues"
   },
