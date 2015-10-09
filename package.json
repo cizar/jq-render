@@ -1,6 +1,6 @@
 {
   "name": "jq-render",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple Handlebars render plugin for jQuery",
   "main": "jquery.render.js",
   "scripts": {
